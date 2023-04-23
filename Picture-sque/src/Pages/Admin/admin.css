@@ -1,0 +1,59 @@
+
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+  --pink: #FF919D;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0rem 1.188rem 3.75rem rgb(0 0 0 / 8%);
+  --smboxShadow: -4.938rem 3.188rem 3.75rem rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+}
+
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  color: var(--black);
+  background-image: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.AppGlass {
+
+  background: var(--glass);
+  display: grid;
+  height: 100%;
+  width: 80%;
+  border-radius: 2rem;
+  gap: 0.625rem;
+  grid-template-columns: 11rem auto 20rem;
+  overflow: auto;
+}
+
+@media screen and (max-width: 75rem) {
+  .AppGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: auto;
+  } 
+}
+
+@media screen and (max-width: 47.5rem) {
+  .AppGlass{
+    grid-template-columns: 1fr;
+  } 
+}
+
+.adcir{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #9df4f4;
+clip-path: circle(12.5rem at  left 5rem);
+}

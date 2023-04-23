@@ -1,0 +1,10 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.625rem 0.188rem 0rem 1.25rem;
+    align-items: center;
+    width: 84.375rem;
+
+
+}

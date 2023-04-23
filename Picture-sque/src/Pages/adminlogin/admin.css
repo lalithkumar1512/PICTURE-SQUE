@@ -1,0 +1,35 @@
+.admin{
+    height: calc(100vh);
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://t3.ftcdn.net/jpg/01/57/34/62/360_F_157346244_A6Oml9kXsQdK3WaVVg91UnzheU0YeFpe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.admintitle {
+    font-size: 3.125rem;
+  }
+
+.button{
+    position: relative;
+    left: 10%;
+}
+
+.reply{
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    color: white;
+    background-color: black;
+}
+
+.delete{
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    color: white;
+    background-color:black;
+}

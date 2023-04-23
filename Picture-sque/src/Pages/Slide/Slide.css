@@ -1,0 +1,14 @@
+.container{
+    margin-top: 3.125rem;
+    background: #F5E9CF;
+    height: 37.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.te{
+    position: relative;
+    text-align: center;
+    color: #E96479;
+}

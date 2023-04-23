@@ -1,0 +1,79 @@
+.Table{
+  overflow: auto;
+}
+
+.MuiTableRow-root > * {
+  padding: 0.625rem;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.Table td,
+th {
+  border: none !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+.status {
+  padding: 0.5rem;
+  border-radius: 0.563rem;
+}
+
+.Details {
+  color: #00b5ff !important;
+}
+.image1{
+  height: 4.375rem;
+  width: 4.375rem;
+}
+
+@media screen and (max-width: 75rem) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 4.438rem) {
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}
+
+
+.delbtnnadmin{
+  padding: 0.625rem;
+  margin-top: 0.938rem;
+  margin-left:1.25rem;
+  position: relative;
+  border: none;
+  border-radius: 1.563rem;
+  cursor: pointer;
+}
+
+.delbtnnadmin2{
+  padding: 0.625rem;
+  margin-top: 2.188rem;
+  margin-left:1.25rem;
+  position: relative;
+  border: none;
+  border-radius: 1.563rem;
+  cursor: pointer;
+}
+
+.delete{
+  padding: 0.625rem;
+  border: none;
+  border-radius: 1.563rem;
+  position: relative;
+  top: 2.813rem;
+}

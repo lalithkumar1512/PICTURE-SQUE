@@ -1,0 +1,106 @@
+.containe{
+    width: 67.5rem;
+    height: auto;
+}
+.abouth1{ 
+    margin-left: 50%;
+    background-color: aqua;
+    text-align: center;
+}
+.abouth2{
+    position: absolute;
+    margin-left: 51%;
+    padding-top: 10.75rem;
+    padding-bottom: 8.281rem;
+    background-color: hotpink;
+    text-align: center;
+}
+.abouth3{
+    position: absolute;
+    margin-left: 50%;
+    width: 42.5rem;
+    padding-right: 4.375rem;
+    padding-top: 10.75rem;
+    padding-bottom: 10.688rem;
+    background-color: hotpink;
+    text-align: center;
+}
+.aboutinfo{
+    height:25rem;
+    width: 31.25rem;
+}
+
+
+.aboutimg{
+    background-color: rgb(190, 55, 190);
+    float:  left;
+    height: 25rem;
+    width: 43.75rem;
+    position: absolute;
+}
+
+.aboutimg1{
+    background-color: rgb(190, 55, 190);
+    float:  left;
+    height: 27.438rem;
+    width: 43.75rem;
+    position: absolute;
+}
+
+.containe2{
+    position: relative;
+    float: left;
+}
+
+
+.Text1{
+    position: absolute;
+    transform: rotate(-90deg);
+    margin: 8.438rem 0rem 0rem -8.438rem;
+    width: 28.125rem;
+    height: 11.25rem;
+    font-size: 3.125rem;
+    background-color: aqua;
+    text-align: center;
+ 
+  }
+
+
+.container3{
+    position: absolute;
+    top: 31.25rem;
+    bottom: 31.25rem;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+
+
+.container4{
+    position: relative;
+    top:31.25rem;
+}
+
+.Text2{
+    position: absolute;
+    transform: rotate(90deg);
+    width: 28.125rem;
+    height: 11.25rem;
+    font-size: 300%;
+    background-color: rgb(237, 81, 81);
+    text-align: center;
+    margin: -22.813rem 0rem 0rem 60.313rem;
+
+ 
+  }
+
+.aboutp{
+    font-size: 1.438rem;
+    margin-top: 1.25rem;
+    margin-left: -1.25rem;
+}
+.section2{
+    position: relative;
+    top: 28.125rem;
+}

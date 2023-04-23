@@ -1,0 +1,145 @@
+.contactus {
+  height: 37.5rem;
+  margin: -3.625rem -0.5rem -0.563rem -0.438rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactTitle {
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+  }
+  .error{
+    color: red;
+    margin-left: 0rem;
+    display: inline-block;
+  }
+  .contactForm {
+    position: relative;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contpr{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .contactForm > label {
+    margin: 0.625rem 0;
+  }
+  
+  .contactInput {
+    padding: 0.625rem;
+    background-color: white;
+    border-radius: 0.938rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 0.313rem;
+    left: 0.625rem;
+  }
+  
+  .contactInput:focus {
+    outline: none;
+  }
+  
+  .contactusButton {
+    cursor: pointer;
+    width: 6.25rem;
+    background-color: lightcoral;
+    color: white;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 1.563rem;
+    text-align: center;
+  }
+  .div1{
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .contcir{
+    position: absolute;
+    top: 6.25rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(83, 194, 245), rgb(89, 239, 89));
+    clip-path: circle(18.75rem at left 31.25rem);
+
+  }
+.contcir1{
+    position: absolute;
+    top: 6.25rem;
+    left: -18.75rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgb(89, 239, 89),rgb(83, 194, 245));
+    clip-path: circle(18.75rem at center 73.125rem);
+
+  } 
+
+
+  .drop1{
+    position: absolute;
+    left: 43.75rem;
+    top: 11.875rem;
+    width: 31.25rem;
+    height: 31.25rem;
+    box-shadow: inset 1.25rem 1.25rem 1.25rem rgba(0,0,0,0.05),
+    1.563rem 2.188rem 1.25rem rgba(0,0,0,0.05),
+    1.563rem 1.875rem 1.875rem rgba(0,0,0,0.05),
+    inset -1.25rem -1.25rem 1.563rem rgba(255,255,255,0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25% 49% 30% 70% / 55% 36% 64% 45%  ;
+  }
+  
+  .drop1:hover{
+    border-radius: 50%;
+  }
+  .drop1::before{
+    content: '' ;
+    position: absolute;
+    top: 10rem;
+    left: 5.313rem;
+    width: 2.188rem;
+    height: 2.188rem;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.9;
+  }
+
+  .drop1::after
+  {
+    content: '' ;
+    position: absolute;
+    top: 5.625rem;
+    left: 6.875rem;
+    width: 0.938rem;
+    height: 0.938rem;
+    border-radius: 50%;
+    background: #ffff;
+    opacity: 0.9;
+  }
+
+  .contimg{
+    position: absolute;
+    top: 12.5rem;
+    left: 3.125rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+  }
+
+
+  

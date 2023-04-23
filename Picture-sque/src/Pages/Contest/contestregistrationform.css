@@ -1,0 +1,67 @@
+.contestreg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  
+  .contestregTitle {
+    font-size: 2.5rem;
+    margin-bottom: 0.625rem;
+  }
+  
+  .contestregForm {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contestregForm> label {
+    margin: 0.313rem 0;
+    font-size: 1.063rem;
+  }
+  .contestregForm> p {
+    margin: 0.313rem 0;
+    color: red;
+  }
+  
+  .contestregInput {
+    padding: 0.438rem;
+    background-color: white;
+    border: none;
+    border-radius: 0.625rem;
+  }
+  
+  .contestregInput:focus {
+    outline: none;
+  }
+  
+  .contestregButton {
+    margin-top: 1.25rem;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.625rem;
+    text-align: center;
+  }
+  
+  .contestregLoginButton {
+    position: absolute;
+    top: 3.75rem;
+    right: 1.25rem;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 0.625rem;
+    border: none;
+    color: white;
+    border-radius: 0.625rem;
+  }

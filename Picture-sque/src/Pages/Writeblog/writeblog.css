@@ -1,0 +1,80 @@
+.write {
+  padding-top: 0.625rem;
+}
+
+.writeimg {
+  margin-left: 9.375rem;
+  width: 70vw;
+  height: 15.625rem;
+  border-radius: 0.625rem;
+  object-fit: cover;
+}
+
+.writeform {
+  /* position: relative; */
+}
+
+.writeformgroup {
+  margin-left: 9.375rem;
+  width: 31.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.writeicon {
+  width: 15.625rem;
+  height: 1.563rem;
+  font-size: 1.25rem;
+  border: 0.063rem solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeinput {
+  font-size: 0.625rem;
+  border: none;
+  padding: 0.313rem;
+  width: max-content;
+  min-width: 18.75rem;
+}
+
+.writeinput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+
+.writeinput:focus {
+  outline-style: none;
+}
+
+.writetext {
+  width: 43.75rem;
+  height: 3.438rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+}
+.error {
+  margin-top: 0.063rem;
+  color: red;
+  margin-left: 43.75rem;
+  display: inline-block;
+}
+.writesubmit {
+  position: absolute;
+  top: 1.25rem;
+  right: 3.125rem;
+  color: white;
+  background-color: teal;
+  padding: 0.625rem;
+  border: none;
+  border-radius: 0.625rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

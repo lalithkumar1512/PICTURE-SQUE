@@ -1,0 +1,26 @@
+
+form{
+    position: relative;
+    top: 0.625rem;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.inputtext{
+    padding: 0.625rem 1.25rem;
+    border-radius: 2rem;
+}
+textarea{
+    position: relative;
+    left: 1.25rem;
+    padding: 1.875rem 6.25rem;
+    border-radius: 2rem;
+
+}
+.submit-btn{
+    position: relative;
+    padding: 0.625rem 1.25rem;
+    border-radius: 2rem;
+}

@@ -1,0 +1,51 @@
+.contestcard {
+  position: relative;
+  height: 44.375rem;
+  width: 38.75rem;
+  margin: 4.688rem;
+  margin-left: 20rem;
+  background-color: #fff;
+  box-shadow: 0.063rem 0.063rem 1.25rem 0rem rgba(148, 122, 122, 0.75);
+  border-radius: 1em;
+}
+* {
+  /* background-image: url("../../public/image/b14.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contesttitle {
+  font-family: "Courier New", Courier, monospace;
+}
+.theme {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.description {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.deadline {
+  font-size: large;
+  font-style: italic;
+}
+.textsm {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+.participate {
+  margin-top: 1.25rem;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 0.625rem;
+  border: none;
+  border-radius: 0.625rem;
+  text-align: center;
+}

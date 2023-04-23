@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "username": "Harika",
+      "email": "harika.l0214@gmail.com",
+      "password": "1234567",
+      "phnumber": "9014554711",
+      "id": 1
+    },
+    {
+      "username": "Harika Lingamsetty",
+      "email": "harika.l20@iiits.in",
+      "password": "123456",
+      "phnumber": "9014554711",
+      "id": 2
+    },
+    {
+      "username": "Lalith",
+      "email": "lalith.g20@iiits.in",
+      "password": "asdf",
+      "phnumber": "9014554711",
+      "id": 3
+    },
+    {
+      "username": "picturesque@gmail.com",
+      "email": "pict",
+      "password": "picturesque",
+      "phnumber": "1234567891",
+      "id": 5
+    },
+    {
+      "username": "Nithin P",
+      "email": "nithin@g.com",
+      "password": "12345678",
+      "phnumber": "9533666898",
+      "id": 6
+    },
+    {
+      "username": "Lalith G",
+      "email": "lalithkumar.g20@iiits.in",
+      "password": "1234",
+      "phnumber": "9346184951",
+      "picture": "https://imageio.forbes.com/specials-images/imageserve/5f962df3991e5636a2f68758/0x0.jpg?format=jpg&crop=812,457,x89,y103,safe&width=1200",
+      "id": 8
+    },
+    {
+      "username": "saathvika",
+      "email": "saathvika.b20@iiits.in",
+      "password": "1234",
+      "phnumber": "9177904560",
+      "picture": "https://www.iiits.ac.in/iiits-content/uploads/2022/09/3-2.jpg",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 1
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 2
+    },
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 3
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 4
+    },
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 5
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 6
+    },
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 7
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 8
+    },
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 9
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 10
+    },
+    {
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "title": "Beauty of nature",
+      "name": "Harika",
+      "tag": "nature",
+      "desc": "Nature has given us so much that we cannot even imagine. Life on this earth is possible only because of nature. There are many other planets in the universe but without this nature life is not possible there. Thus nature is the basis of our life. Nature is not the same everywhere on earth.",
+      "id": 11
+    },
+    {
+      "file": "https://www.tripsavvy.com/thmb/eci8IaTDsNh11uzbGUu_Pkt7_yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg",
+      "title": "On the road of life",
+      "name": "sai",
+      "tag": "nature",
+      "desc": "This got my dreaming about a long, refreshing bike ride. Just the thought of it made me happy for a moment. I discussed with few friends about the ride and they agreed to join me, as we had 2 days off due to Dussehra festival. We applied for E-pass as it was mandatory to enter tourist places.",
+      "id": 12
+    },
+    {
+      "file": " https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "title": "nature",
+      "tag": "trees",
+      "name": "AKIRAH",
+      "desc": "just..",
+      "id": 13
+    },
+    {
+      "file": "https://szcdn.ragalahari.com/jan2022/hd/sampoornesh-babu-dagad-samba-teaser-launch/sampoornesh-babu-dagad-samba-teaser-launchthumb.jpg",
+      "title": "New ",
+      "tag": "Nithin",
+      "name": "Nithin P",
+      "desc": "This is desc.",
+      "id": 14
+    },
+    {
+      "file": " https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "title": "nature",
+      "tag": "trees",
+      "name": "HLICKER",
+      "desc": "hello",
+      "id": 15
+    },
+    {
+      "file": " https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "title": "Nature",
+      "tag": "forest",
+      "name": "Nithin P",
+      "desc": "Hi",
+      "id": 16
+    },
+    {
+      "file": " https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "title": "hi",
+      "tag": "jsel",
+      "name": "Nithin P",
+      "desc": "ejxjn",
+      "id": 17
+    },
+    {
+      "file": " https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "title": "nature",
+      "tag": "h",
+      "name": "Rohith boppey",
+      "desc": "ban",
+      "id": 18
+    }
+  ],
+  "qs": [
+    {
+      "username": "Saathvika",
+      "email": "saathvika.b20@iiits.in",
+      "query": "y",
+      "id": 3
+    },
+    {
+      "username": "lalith",
+      "email": "lalithkumar.g20@iiits.in",
+      "query": "hello",
+      "id": 4
+    }
+  ],
+  "contestregistrations": [
+    {
+      "fullname": "lalith",
+      "email": "lalithkumar.g20@iiits.in",
+      "place": "hyd",
+      "id": 1
+    },
+    {
+      "fullname": "lalith",
+      "email": "lalithkumar.g20@iiits.in",
+      "place": "sec",
+      "file": "C:\\fakepath\\Mr_Majnu.jpeg",
+      "id": 2
+    },
+    {
+      "fullname": "harika",
+      "email": "kgf@gmail.com",
+      "place": "hyd",
+      "file": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg",
+      "id": 3
+    }
+  ]
+}
