@@ -28,7 +28,7 @@ export default function Writeblog() {
     setFormErrors(validate(formValues));
     setIsSubmit(true);
     console.log(formValues);
-    axios.post("http://localhost:5000/posts", {
+    axios.post("https://backend-0sjh.onrender.com/posts", {
       title: formValues.title,
       file: formValues.file,
       tag: formValues.tag,

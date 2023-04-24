@@ -32,7 +32,7 @@ function Register() {
     e.preventDefault();
     setFormErrors(validate(formValues));
     console.log(formValues);
-    const res=await axios.post("http://localhost:5000/register", {
+    const res=await axios.post("https://backend-0sjh.onrender.com/register", {
       username: formValues.username,
       email: formValues.email,
       password:formValues.password,

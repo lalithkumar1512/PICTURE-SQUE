@@ -26,7 +26,7 @@ function Contestregistrationform() {
     setFormErrors(validate(formValues));
     setIsSubmit(true);
     console.log(formValues);
-    axios.post("http://localhost:5000/contestregistrations", {
+    axios.post("https://backend-0sjh.onrender.com/contestregistrations", {
       fullname: formValues.username,
       email: formValues.email,
       place:formValues.place,

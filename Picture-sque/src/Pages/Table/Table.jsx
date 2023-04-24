@@ -43,7 +43,7 @@ export default function BasicTable() {
   const d=(email) => {
     console.log("functin called")
     try{
-      Axios.post("http://localhost:5000/deleteuser", {
+      Axios.post("https://backend-0sjh.onrender.com/deleteuser", {
         // username: formValues.username,
         email:email
       }).then((res) => {
@@ -56,7 +56,7 @@ export default function BasicTable() {
   }
   // console.log(currentUser)
   useEffect(() => {
-    Axios.get(`http://localhost:5000/getusers`)
+    Axios.get(`https://backend-0sjh.onrender.com/getusers`)
       .then((res) => {
         setUsers(res.data);
         console.log(res.data);
@@ -70,8 +70,7 @@ export default function BasicTable() {
       <h3>Users</h3>
         <TableContainer
           component={Paper}
-          style={{ boxShadow: "0px 13px 20px 0px #80808029" }}
-          style={{ overflow:"auto" }}
+          style={{ boxShadow: "0px 13px 20px 0px #80808029",overflow:"auto" }}
         >
           <Table sx={{ minWidth: 700 }} aria-label="simple table">
             <TableHead>

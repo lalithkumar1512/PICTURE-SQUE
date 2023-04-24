@@ -13,7 +13,7 @@ export default function Blogcards() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    Axios.post("http://localhost:5000/getposts", {
+    Axios.post("https://backend-0sjh.onrender.com/getposts", {
       email: currentUser.email,
       accesstoken: currentUser.accesstoken,
     })

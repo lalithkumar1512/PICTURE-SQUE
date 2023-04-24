@@ -11,7 +11,7 @@ export default function Blogcard({ id, file, img, title, desc, tag, likes }) {
   const [Likecheck, setLikecheck] = useState(true);
   const handleclick = async (file) => {
     await axios
-      .post("http://localhost:5000/likecheck", {
+      .post("https://backend-0sjh.onrender.com/likecheck", {
         file: file,
         email: currentUser.email,
       })
@@ -20,7 +20,7 @@ export default function Blogcard({ id, file, img, title, desc, tag, likes }) {
         if (res.data.status) {
           console.log(1);
           setLike(Like + 1);
-          axios.post("http://localhost:5000/increaselikecount", {
+          axios.post("https://backend-0sjh.onrender.com/increaselikecount", {
             file: file,
             email: currentUser.email,
           });

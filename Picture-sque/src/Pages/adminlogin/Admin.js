@@ -10,7 +10,7 @@ export default function Admin() {
   const d=(id) => {
     console.log("functin called")
     try{
-      axios.delete(`http://localhost:5000/qs/${id}`).then((resp) => {
+      axios.delete(`https://backend-0sjh.onrender.com/qs/${id}`).then((resp) => {
         let temp = qs;
         temp = qs.filter(q => q.id != id);
         setqs(temp);
@@ -22,7 +22,7 @@ export default function Admin() {
   }
   useEffect(() => {
     axios
-      .get("http://localhost:5000/qs")
+      .get("https://backend-0sjh.onrender.com/qs")
       .then((res) => {
         setqs(res.data);
         console.log(res.data);

@@ -44,7 +44,7 @@ export default function BasicTable() {
   const d=(email) => {
     console.log("functin called")
     try{
-      Axios.post("http://localhost:5000/deletecrs", {
+      Axios.post("https://backend-0sjh.onrender.com/deletecrs", {
         // username: formValues.username,
         email:email
       }).then((res) => {
@@ -57,7 +57,7 @@ export default function BasicTable() {
   }
   // console.log(currentUser)
   useEffect(() => {
-    Axios.get(`http://localhost:5000/getcrs`)
+    Axios.get(`https://backend-0sjh.onrender.com/getcrs`)
       .then((res) => {
         setUsers(res.data);
         console.log(res.data);

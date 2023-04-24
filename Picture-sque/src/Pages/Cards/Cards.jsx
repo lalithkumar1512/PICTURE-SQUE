@@ -9,7 +9,7 @@ const Cards = () => {
   const [posts1, setPosts1] = useState([]);
   // console.log(currentUser)
   useEffect(() => {
-    Axios.get(`http://localhost:5000/cr`)
+    Axios.get(`https://backend-0sjh.onrender.com/cr`)
       .then((res) => {
         setPosts1(res.data);
         console.log(res.data);
@@ -21,7 +21,7 @@ const Cards = () => {
   const [posts2, setPosts2] = useState([]);
   // console.log(currentUser)
   useEffect(() => {
-    Axios.get(`http://localhost:5000/ps`)
+    Axios.get(`https://backend-0sjh.onrender.com/ps`)
       .then((res) => {
         setPosts2(res.data);
         console.log(res.data);
@@ -33,7 +33,7 @@ const Cards = () => {
   const [posts3, setPosts3] = useState([]);
   // console.log(currentUser)
   useEffect(() => {
-    Axios.get(`http://localhost:5000/us`)
+    Axios.get(`https://backend-0sjh.onrender.com/us`)
       .then((res) => {
         setPosts3(res.data);
         console.log(res.data);

@@ -29,7 +29,7 @@ export default function ContactUs() {
     setFormErrors(validate(formValues));
     setIsSubmit(true);
     console.log(formValues);
-    axios.post("http://localhost:5000/contactus", {
+    axios.post("https://backend-0sjh.onrender.com/contactus", {
       username: formValues.username,
       email: formValues.email,
       query: formValues.query,

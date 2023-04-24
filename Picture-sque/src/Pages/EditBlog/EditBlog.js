@@ -41,7 +41,7 @@ export default function EditBlog() {
     data.append("tag", formValues.tag);
     data.append("email", formValues.email);
     data.append("desc", formValues.desc);
-    axios.post("http://localhost:5000/updatepost", data);
+    axios.post("https://backend-0sjh.onrender.com/updatepost", data);
   };
 
   const validate = (values) => {

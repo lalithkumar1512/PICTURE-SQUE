@@ -7,7 +7,7 @@ import {useState} from"react";
 
 export default function Contest() {
   const [user_name, setUser_name] = useState("");
-  const res=axios.get('http://localhost:5000/getcontestwinner').then((res)=>{
+  const res=axios.get('https://backend-0sjh.onrender.com/getcontestwinner').then((res)=>{
     console.log(res.data)
     setUser_name(res.data.username)
     // setUser_pic(res.data.picture)

@@ -15,7 +15,7 @@ const MainDash1 = () => {
     e.preventDefault();
     alert('Winner Updated Successfully')
     // setFormErrors(validate(formValues));
-    const res = await axios.post("http://localhost:5000/contestwinner",{
+    const res = await axios.post("https://backend-0sjh.onrender.com/contestwinner",{
       email: formValues.email,
     });
   };

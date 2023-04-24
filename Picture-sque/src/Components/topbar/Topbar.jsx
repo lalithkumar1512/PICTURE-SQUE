@@ -16,7 +16,7 @@ export default function Topbar() {
   //console.log(currentUser)
   const [user_name, setUser_name] = useState("");
   const [user_pic, setUser_pic] = useState("");
-    axios.post("http://localhost:5000/topbar",{
+    axios.post("https://backend-0sjh.onrender.com/topbar",{
     email: currentUser.email,
     // password: currentUser.password,
   }).then((res)=>{

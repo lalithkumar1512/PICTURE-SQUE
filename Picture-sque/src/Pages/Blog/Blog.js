@@ -20,7 +20,7 @@ export default function Blog() {
     });
   };
   const handledelete = () => {
-    axios.post("http://localhost:5000/delete", {
+    axios.post("https://backend-0sjh.onrender.com/delete", {
       id: location.state.id,
     });
     navigate("/Allblogs");
