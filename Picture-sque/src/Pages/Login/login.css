@@ -1,9 +1,8 @@
-Dannny, [24-03-2023 21:22]
+
 .loginpage{
   width: 100%;
   height: 100vh;
   background-size: cover;
-  /* background: #7DB9B6; */
 }
 .login {
     display: flex;

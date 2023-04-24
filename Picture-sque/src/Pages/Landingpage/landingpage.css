@@ -5,11 +5,8 @@
   height: 100vh;
   color: #fff;
   box-sizing: border-box;
-  /* background: #000; */
-  /* background: #5CDB95; */
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-image: url(../Image/BG1.jpg); */
 }
 
 .BGvid{
@@ -22,7 +19,6 @@
 .ho {
   position: absolute;
   top: 10%;
-  /* color: #EDF5E1; */
   left: 5rem;
   width: 100%;
   height: 60%;
@@ -56,7 +52,6 @@
   margin-left: -4.625rem;
   width: 100%;
   height: 100%;
-  /* background-color: #cff5cf; */
   filter: blur(0.5rem);
   clip-path: circle(37.5rem at left 6.25rem );
 }

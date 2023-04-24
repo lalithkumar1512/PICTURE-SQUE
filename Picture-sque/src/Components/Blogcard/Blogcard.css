@@ -11,8 +11,6 @@ h5 {
 }
 .allblogspage {
   background: url("../../../public/images/bg.jpg") no-repeat ;
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;*/
   -o-background-size: cover; 
 }
 .slide {
@@ -71,9 +69,7 @@ h5 {
   padding: 1.2em;
 }
 
-/*
- * Basic button style
- */
+
 .btn {
   box-shadow: 0.063rem 0.063rem 0 rgba(255, 255, 255, 0.5) inset;
   border-radius: 0.188rem;
@@ -88,9 +84,7 @@ h5 {
   text-decoration: none;
   text-shadow: 0 0.063rem 0 rgba(255, 255, 255, 0.5);
 }
-/*
- * Counter button style
- */
+
 .btn-counter {
   margin-right: 2.438rem;
 }
@@ -128,9 +122,7 @@ h5 {
   z-index: 1;
   zoom: 1;
 }
-/*
- * Custom styles
- */
+
 .btn {
   background-color: #dbdbdb;
   border-color: #bbb;

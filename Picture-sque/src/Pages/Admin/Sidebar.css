@@ -1,12 +1,11 @@
 .sidebar {
-  /* background: blanchedalmond; */
   display: flex;
   flex-direction: column;
   position: relative;
   padding-top: 4rem;
   transition: all 300ms ease;
 }
-/* logo */
+
 .bars{
   display: none;
 }
@@ -73,7 +72,7 @@
 }
 
 
-/* Tablets */
+
 @media screen and (max-width: 75rem) {
   .menuItem>span{
     display: none;

@@ -20,7 +20,6 @@
   }
   
   .App1 {
-    /* padding: 0.5rem 3.5rem; */
     color: var(--black);
     background-color: rgb(0, 0, 0);
     height: 94.5vh;
@@ -35,11 +34,6 @@
     background: var(--glass);
     background-color: var(--boxShadow);
     background-color: whitesmoke;
-    /* background: linear-gradient(
-        100.30deg,
-        #d4d058 51.55%,
-        #221920 90.85%
-      ); */
     display: grid;
     height:  70%;
     width: 90%;

@@ -3,10 +3,6 @@
   background-color: black;
   position: relative;
   width: 100%;
-
-  /* @media (max-width: 62.5rem) {
-    padding: 1.825rem 1.825rem;
-  } */
 }
 .boxcontainer {
   display: flex;
@@ -20,9 +16,6 @@
   margin-left: 9.375rem;
   grid-template-columns: repeat(auto-fill, minmax(11.563rem, 1fr));
   grid-gap: 0.625rem;
-  /* @media (max-width: 62.5rem) {
-    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
-  } */
 }
 .boxcolumn {
   display: flex;
